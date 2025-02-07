@@ -1,0 +1,87 @@
+body{
+    background: url('background.jpeg') center center fixed;
+    background-size: cover;
+    
+}
+
+.loginHeader{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.loginHeader h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #5f9fde;
+    padding: 10px;
+    margin: 0px;
+    font-style: oblique;
+}
+.loginHeader h3{
+    font-size: 70px;
+    color: #be2964d1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.loginHeader h3::after{
+    content: "";
+    display: block;
+    height: 5px;
+    background:#be2964d1;
+    margin: 0px auto;
+}
+.loginBody{
+    margin-top: 20px;
+}
+
+.loginBody form{
+    margin: 0 auto;
+    width: 450px;
+    background: rgba(0,0,0,0.5);
+    padding: 50px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.loginInputContainer{
+    margin-top: 20px;
+}
+
+.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.loginInputContainer input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid #d40339;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.loginButtonContainer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.loginButtonContainer button{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #f685a2;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
