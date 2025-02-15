@@ -1,0 +1,87 @@
+body{
+    background: url('background.jpeg') center center fixed;
+    background-size: cover;
+    
+}
+
+.regisHeader{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.regisHeader h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #5f9fde;
+    padding: 10px;
+    margin: 0px;
+    font-style: oblique;
+}
+.regisHeader h3{
+    font-size: 60px;
+    color: #be2964d1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.regisHeader h3::after{
+    content: "";
+    display: block;
+    height: 5px;
+    background:#be2964d1;
+    margin: 0px auto;
+}
+.regisBody{
+    margin-top: 10px;
+}
+
+.regisBody form{
+    margin: 0 auto;
+    width: 450px;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.regisInputContainer{
+    margin-top: 10px;
+}
+
+.regisInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.regisInputContainer input{
+    height: 28px;
+    width: 100%;
+    border: 2px solid #d40339;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.regisButtonContainer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.regisButtonContainer button{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #f685a2;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
