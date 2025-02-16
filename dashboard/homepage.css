@@ -45,15 +45,28 @@
     font-style: italic;
 }
 .homepageFooter{
+    /* background:rgba(208, 201, 201, 0.5); */
+    /* padding: 50px 0 20px 0; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
     text-align: center;
-    padding: 50px 0 20px 0;
-
+    width: 50%;
+    background: #e8dfdf;
+    margin-left: 290px;
+    border: 5px solid #db6161;
+    border-radius: 10px;
 }
 .socialHeader{
     margin-top: 15px;
     margin-bottom: 15px;
     color: #f685a1;
     font-size: 25px;
-    font-style: normal
-    ;
+    font-style: normal;
+    
+    
+}
+.homepageFooter a{
+    color: #848484;
+    margin-left: 30px;
 }
